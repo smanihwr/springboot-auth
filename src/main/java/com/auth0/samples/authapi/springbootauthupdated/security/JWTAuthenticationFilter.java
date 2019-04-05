@@ -19,10 +19,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 import static com.auth0.jwt.algorithms.Algorithm.HMAC512;
-import static com.auth0.samples.authapi.springbootauthupdated.security.SecurityConstants.EXPIRATION_TIME;
-import static com.auth0.samples.authapi.springbootauthupdated.security.SecurityConstants.HEADER_STRING;
-import static com.auth0.samples.authapi.springbootauthupdated.security.SecurityConstants.SECRET;
-import static com.auth0.samples.authapi.springbootauthupdated.security.SecurityConstants.TOKEN_PREFIX;
+import static com.auth0.samples.authapi.springbootauthupdated.security.SecurityConstants.*;
 
 public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
     private AuthenticationManager authenticationManager;
